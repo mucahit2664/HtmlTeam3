@@ -1,0 +1,26 @@
+*{
+ text-align: center;
+ margin: 0;
+ box-sizing: border-box;
+}
+
+body{
+ background-image: linear-gradient(to right,rgb(155, 30, 30),rgb(109, 137, 8),violet)
+
+ 
+ 
+}
+.input{
+margin-bottom: 30px;
+width: 200px;
+height: 30px;
+
+}
+
+label{
+display: block;
+
+}
+textarea{
+width: 200px;
+}

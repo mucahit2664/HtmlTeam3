@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>FORMLAR</title>
+  </head>
+  <body>
+    <h1>FORMLAR</h1>
+    <form action="kaydet.php"></form>
+    <label class="label" for="ad">Ad:</label>
+    <input class="input" id="ad" type="text" placeholder="Adinizi giriniz" maxlength="20" />
+    ​ ​
+    
+    <label class="label" for="soyadi">Soyadi:</label>
+    <input class="input" id="soyadi" type="text" placeholder="Soyadinizi giriniz." />
+    
+    <label class="label" for="sifre">Sifre:</label>
+    <input class="input" id="sifre" type="password" required="" />
+    
+    <label class="label" for="email">Email:</label>
+    <input class="input"  id="email" type="email" required="" />
+    
+
+    <label class="label" for="yas">Yas:</label>
+    <input class="input" id="yas" type="number" max="100" min="0" />
+    <br />
+    <label class="label" for="adres">Adres:</label>
+    <textarea name="text-alani" id="adres" rows="10"></textarea><br />
+
+
+    <button class="btn" type="submit">Gonder</button>
+    <i class="far fa-save"></i>
+    
+    <button class="btn" type="reset">Reset</button>
+
+
+  </body>
+</html>
