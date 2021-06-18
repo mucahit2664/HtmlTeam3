@@ -28,6 +28,6 @@ td {
 td:hover {
   background-color: aqua;
 }
-td:nth-child(odd){
- background-color: darkmagenta;
+td:nth-child(odd) {
+  background-color: darkmagenta;
 }
