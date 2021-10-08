@@ -1,26 +1,65 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800&display=swap');
+
+
 *{
  text-align: center;
  margin: 0;
  box-sizing: border-box;
+ font-family: "Roboto", sans-serif;
 }
 
 body{
- background-image: linear-gradient(to right,rgb(155, 30, 30),rgb(109, 137, 8),violet)
+background-image: radial-gradient(
+    circle, rgb(148, 202, 111),
+    violet);
+font-family: "Nunito",sans-serif;
 
- 
- 
 }
+
+
+
 .input{
 margin-bottom: 30px;
 width: 200px;
 height: 30px;
 
 }
+.btn{
+    font-size: 16px;
+    color:crimson;
+    width:100px;
+    height:40;
+    margin-top:10px ;
+    border: 2px solid rgb(44, 44, 73,0.5);
+    border-radius: 10px;
+    background: rgb(196, 97, 80);
+    cursor: pointer;
+
+}
+.btn:hover{
+background:rgb(131, 18, 42);
+
+}
+.far,
+.fas{
+    font-size: 15px;
+   
+
+}
+i {
+    background-color: black;
+}
+
 
 label{
 display: block;
 
 }
 textarea{
+    background-color: rgb(133, 174, 190);
 width: 200px;
+font-size: 12px;
+border-radius: 15px;
+text-align: justify;
 }
