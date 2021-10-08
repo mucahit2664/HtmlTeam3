@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Bootstrap CSS -->
+    <link href="assets/lib/css/bootstrap.css" rel="stylesheet" />
+
+    <title>Boostrap Text</title>
+  </head>
+  <body>
+    <!-- * Sutunların ekranda kaplayacağı alan responsive olarak belirlenebilir. 
+      Önceden tanımlanmış ekran boyutlarına (breakpoint) göre sutunların boyutları otomatik 
+      değişebilmektedir. Ayrıntılı bilgi için 
+               
+          ? Extra small devices (portrait phones, less than 576px) 
+          ? No media query for `xs` since this is the default in Bootstrap
+          ? Small devices (landscape phones, 576px and up)
+          ! @media (min-width: 576px) { ... }
+          ? Medium devices (tablets, 768px and up)
+          ! @media (min-width: 768px) { ... }
+          ? Large devices (desktops, 992px and up)
+          ! @media (min-width: 992px) { ... }
+          ? Extra large devices (large desktops, 1200px and up)
+          ! @media (min-width: 1200px) { ... }
+      
+       * Ayrıntılı bilgi için;
+       ! https://getbootstrap.com/docs/4.3/layout/grid/#all-breakpoints     -->
+
+    <div class="container">
+      <h1 class="h1 text-center bg-danger">RESPONSIVE</h1>
+      <div class="row">
+        <div class="col-12 col-sm-6 col-md-4 col-lg-10 bg-primary">A1</div>
+      </div>
+      <div class="row">
+        <div class="col-12 col-sm-4 col-md-10 col-lg-7 bg-success">A2</div>
+      </div>
+      <div class="row">
+        <div class="col-12 col-sm-2 col-md-11 col-lg-8 bg-danger">A3</div>
+      </div>
+    </div>
+
+    <script src="assets/lib/js/bootstrap.bundle.js"></script>
+  </body>
+</html>

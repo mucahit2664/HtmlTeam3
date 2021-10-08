@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- * Bootstrap'i lokalden çalıştırmak için Boostrap indirerek dosyaları proje dosyamıza (Örneğin assets/lib klasörüne) ekleyebiliriz. Sonrasında ise aşağıdaki gibi bootstrap.min.css dosyasına link verebiliriz. -->
+
+    <!--? Ayrıca sayfanın en sonuna doğru Bootstrap JS kodlarını da kullanamk istersek <script> etiketi ile ana js kodunu eklememiz gerekir. -->
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="./assets/lib/bootstrap-5.1.1-dist/css/bootstrap.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+
+    <title>Boostrap Text</title>
+  </head>
+  <body>
+    <!-- ? Boostrap'de nesnelerimizi taşıyacak ana container'ların dışında row (satır) ve col (sutun) adında container yapısı da mevcuttur. -->
+
+    <!-- ** Boostrap bir web sayfasını 12 eşit ızgaraya (col) bölünmüştür ve bu sutunlar aksi belirtilmediği sürece eşit şekilde sayfaya yayılırlar. -->
+
+    <div class="container">
+      <h1 class="display-1 text-center text-danger">BOOSTRAP GRID</h1>
+      <div class="row">
+        <div class="col bg-danger">sutun-1</div>
+        <div class="col bg-success">sutun-2</div>
+        <div class="col bg-info">sutun-3</div>
+      </div>
+      <div class="row">
+        <div class="col bg-primary">sutun-3</div>
+        <div class="col bg-secondary">sutun-4</div>
+      </div>
+    </div>
+    <!-- ? Sutunların kaplayacağı alanı belirtmek için col-x şeklinde bir atama yapılabilir. -->
+
+    <!-- ** ızgaraların mevcut alanda nasıl hizalanacağını belirlemek için justify-content sınıfı kullanılır. Bu konuda ek açıklama için 
+     ! https://getbootstrap.com/docs/5.0/utilities/flex/#justify-content -->
+
+    <div class="container-fluid mt-4">
+      <div class="row justify-content-between">
+        <div class="col-6 bg-primary">AMS-1</div>
+        <div class="col-4 bg-secondary">AMS-2</div>
+      </div>
+      <div class="row justify-content-around">
+        <div class="col-1 bg-danger">RG-1</div>
+        <div class="col-2 bg-success">RG-2</div>
+        <div class="col-5 bg-info">RG-3</div>
+      </div>
+    </div>
+
+    <script src="./assets/lib/bootstrap-5.1.1-dist/js/bootstrap.bundle.js"></script>
+  </body>
+</html>

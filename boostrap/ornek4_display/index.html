@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Bootstrap CSS -->
+    <link href="assets/lib/css/bootstrap.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+
+    <title>Display</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="display-3 text-center text-info bg-success">DISPLAY</h1>
+      <!-- ** Aynı CSS'de olduğu gibi Bootstrap ile de nesnelerin display özellikleri değiştirilebilir. Display classları hakkında ayrıntılı bilgi için 
+      ! https://getbootstrap.com/docs/5.0/utilities/display/ -->
+
+      <div class="container">
+        <div class="d-md-none d-xl-block bg-primary">AMS1</div>
+        <div class="bg-secondary">AMS2</div>
+        <div class="bg-info">AMS3</div>
+      </div>
+    </div>
+    <!-- ? fixed-top sayfanın üzerine fixed-bottom ise sayfanın altına nesneleri yapıştırır.
+    ? Ayrıntılı bilgi için 
+    ! https://getbootstrap.com/docs/4.0/utilities/position/ -->
+
+    <!-- ** margin ve padding hakkında ayrıntılı bilgi için
+      ! https://getbootstrap.com/docs/5.0/utilities/spacing/ -->
+    <div
+      class="
+        container-fluid
+        d-flex
+        justify-content-between
+        bg-dark
+        text-light
+        mt-4
+        mb-3
+        p-2
+      "
+    >
+      <div>
+        <i class="fas fa-phone text-warning"></i>
+        <span class="ms-2 d-none d-md-inline">+90555 555 55 55</span>
+        <i class="ms-2 fab fa-whatsapp text-warning"></i>
+        <span class="m-2 d-none d-md-inline">+90555 555 55 55</span>
+      </div>
+      <div>
+        <i class="fab fa-twitter text-info"></i>
+        <i class="mx-2 fab fa-youtube text-info"></i>
+        <i class="fab fa-instagram text-info"></i>
+        <span class="ms-2 d-none d-lg-inline">#techproed</span>
+      </div>
+    </div>
+
+    <script src="assets/lib/js/bootstrap.bundle.js"></script>
+  </body>
+</html>
